@@ -1,0 +1,30 @@
+:root {
+  --bg-dark: #0b0e14;
+  --gold: #ff7a18;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Noto Sans', sans-serif;
+}
+
+body {
+  background: var(--bg-dark);
+  color: white;
+  font-family: var(--font-body);
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 60px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Gallery → 3 columns */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

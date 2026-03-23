@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JOHN'S RESTAURANT — Nakuru</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-text">JOHN'S RESTAURANT</div>
+</div>
+
+<!-- Navigation -->
+<nav id="nav">
+  <a href="#" class="nav-logo">JOHN'S RESTAURANT</a>
+
+  <ul class="nav-links">
+    <li><a href="#about">Philosophy</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#info">Visit</a></li>
+  </ul>
+
+  <button class="nav-reserve-btn">Reserve</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">JOHN'S RESTAURANT</h1>
+    <p class="hero-sub">Premium African Cuisine</p>
+    <p class="hero-jp">Kenya · Nakuru</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>Our Story</h2>
+  <p>
+    John’s Restaurant in Nakuru brings together African flavors with modern dining.
+    Chef John Wanjiku creates dishes inspired by local culture and international techniques.
+  </p>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+  <h2>Menu</h2>
+
+  <div class="menu-tabs">
+    <button class="menu-tab active" data-tab="starters">Starters</button>
+    <button class="menu-tab" data-tab="main">Main</button>
+    <button class="menu-tab" data-tab="dessert">Dessert</button>
+  </div>
+
+  <div class="menu-item" data-category="starters">
+    <div>Nyama Skewers</div>
+    <div>KSh 500</div>
+  </div>
+
+  <div class="menu-item" data-category="main" style="display:none">
+    <div>Ugali & Beef</div>
+    <div>KSh 800</div>
+  </div>
+
+  <div class="menu-item" data-category="main" style="display:none">
+    <div>Chicken Stew</div>
+    <div>KSh 900</div>
+  </div>
+
+  <!-- EXTRA ITEM -->
+  <div class="menu-item" data-category="main" style="display:none">
+    <div>Grilled Tilapia</div>
+    <div>KSh 1100</div>
+  </div>
+
+  <!-- EXTRA ITEM -->
+  <div class="menu-item" data-category="dessert" style="display:none">
+    <div>Fruit Salad</div>
+    <div>KSh 300</div>
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="gallery-grid">
+
+    <div class="gallery-item" style="background:#333;"></div>
+    <div class="gallery-item" style="background:#555;"></div>
+    <div class="gallery-item" style="background:#777;"></div>
+
+    <!-- NEW ITEM -->
+    <div class="gallery-item" style="background:#999;"></div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="testimonial active">
+    <p>"Amazing food in Nakuru!"</p>
+  </div>
+
+  <!-- NEW TESTIMONIAL -->
+  <div class="testimonial">
+    <p>"Best restaurant in town."</p>
+  </div>
+
+  <div class="testimonial-dot active"></div>
+  <div class="testimonial-dot"></div>
+</section>
+
+<!-- INFO -->
+<section id="info">
+  <p>Hours: 10AM - 10PM</p>
+  <p>Location: Nakuru, Kenya</p>
+  <p>Contact: +254114717436</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 JOHN'S RESTAURANT
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
